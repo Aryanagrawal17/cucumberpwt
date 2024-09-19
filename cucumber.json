@@ -1,0 +1,15 @@
+{
+    "default":{
+        "formatOptions":{
+            "snipprtInterface":"async-await"
+        },
+        "paths":[
+            "src/test/feature/login.feature"
+        ],
+        
+        "dryRun": false,
+        "require":[
+            "src/test/steps/*.js"
+        ]
+    }
+}
